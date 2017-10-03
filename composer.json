@@ -1,0 +1,15 @@
+{
+    "name": "benjamindoe/BibleGateway",
+    "description": "Unofficial Bible Gateway PHP API",
+    "homepage": "https://github.com/benjamindoe/BibleGateway",
+    "keywords": ["bible", "api", "biblegateway"],
+    "require": {
+        "php": "^5.4 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BenjaminDoe\\": "src/"
+        },
+        "files": ["src/BibleGateway.class.php"]
+    }
+}
