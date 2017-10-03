@@ -1,5 +1,12 @@
-# Usage
+# Bible Gateway Unofficial API
 
+## Install
+### via composer
+```composer require benjamindoe/bible-gateway```
+### using just the class file
+Copy the `src/BibleGateway.class.php` into your project and include it.
+
+## Example Usage
 ```
 $bible = new BibleGateway('ESV') // Version optional. Default is ESV
 
