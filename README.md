@@ -1,5 +1,7 @@
 # Bible Gateway Unofficial API
 
+Unofficial Bible Gateway PHP API
+
 ## Install
 ### via composer
 ```composer require benjamindoe/bible-gateway```
