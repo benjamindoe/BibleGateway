@@ -1,5 +1,5 @@
 <h1> EXAMPLE USAGE </h1>
-<?php include ('BibleGateway.class.php');
+<?php include ('../src/BibleGateway.class.php');
 $bible = new BibleGateway('KJV');
 $bible->searchPassage('John 3:1-17');
 echo $bible->text;
