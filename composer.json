@@ -1,5 +1,5 @@
 {
-    "name": "benjamindoe/BibleGateway",
+    "name": "benjamindoe/bible-gateway",
     "description": "Unofficial Bible Gateway PHP API",
     "homepage": "https://github.com/benjamindoe/BibleGateway",
     "keywords": ["bible", "api", "biblegateway"],
