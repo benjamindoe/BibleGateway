@@ -3,6 +3,7 @@
     "description": "Unofficial Bible Gateway PHP API",
     "homepage": "https://github.com/benjamindoe/BibleGateway",
     "keywords": ["bible", "api", "biblegateway"],
+    "license": "MIT",
     "require": {
         "php": "^5.4 || ^7.0"
     },
