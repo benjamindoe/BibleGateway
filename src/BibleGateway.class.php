@@ -44,11 +44,11 @@ class BibleGateway
 		$this->text = '';
 		$url = self::URL.'/passage?'.http_build_query(['search' => $passage,'version' => $this->version]);
 		$html = file_get_contents($url);
-		$dom = new DOMDocument;
+		$dom = new \DOMDocument;
 		libxml_use_internal_errors(true);
 		$dom->loadHTML($html);
 		libxml_use_internal_errors(false);
-		$xpath = new DOMXPath($dom);
+		$xpath = new \DOMXPath($dom);
 		$context = $xpath->query("//div[@class='passage-wrap']")->item(0);
 		$pararaphs =  $xpath->query("//div[@class='passage-wrap']//p");
 		$verses = $xpath->query("//div[@class='passage-wrap']//span[contains(@class, 'text')]");
