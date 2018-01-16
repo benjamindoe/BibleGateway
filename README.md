@@ -10,7 +10,7 @@ Copy the `src/BibleGateway.class.php` into your project and include it.
 
 ## Example Usage
 ```
-$bible = new BibleGateway('ESV') // Version optional. Default is ESV
+$bible = new BibleGateway('NIV') // Version optional. Default is ESV
 
 $bible->reference = 'John 3:16' // Starts the search
 
