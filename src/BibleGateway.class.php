@@ -61,12 +61,6 @@ class BibleGateway
 				{
 					$result->parentNode->removeChild($result);
 				}
-
-				// $chapter = $xpath->query("span[@class='chapternum']", $verse);
-				// if($chapter->length)
-				// {
-				// 	var_dump($chapter->item(0));
-				// }
 				$this->text .= $dom->saveHTML($paragraph);
 			}
 			else
